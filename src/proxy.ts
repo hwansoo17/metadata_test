@@ -137,6 +137,7 @@ export async function proxy(request: NextRequest) {
 
         return response;
       } catch (error) {
+        console.log('Error fetching from Prerender.io:', error);
         return NextResponse.next({
           request: {
             headers: requestHeaders,
