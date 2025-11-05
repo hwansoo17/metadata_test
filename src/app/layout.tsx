@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { headers } from 'next/headers';
 import Link from 'next/link';
-import { buildMetadata } from './seo/metadata-factory';
+import Head from 'next/head';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,13 +13,6 @@ const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
 });
-
-export async function generateMetadata() {
-  const pathname = (await headers()).get('x-pathname') || '/';
-  console.log('Generating metadata for pathname:', pathname);
-
-  return buildMetadata({ pathname });
-}
 
 export default async function RootLayout({
   children,
