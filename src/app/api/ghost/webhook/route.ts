@@ -7,5 +7,12 @@ export async function POST(request: Request) {
 
   console.log('Ghost webhook payload:', url);
 
+  const response = await fetch(
+    `https://api.indexnow.org/indexnow?url=${encodeURIComponent(
+      url,
+    )}&key=8989f99c2c124870ab46e7d8ca054bcf`,
+  );
+  console.log('IndexNow response status:', response.status);
+
   return NextResponse.json({ ok: true });
 }
