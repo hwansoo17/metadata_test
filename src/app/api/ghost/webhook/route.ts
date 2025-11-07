@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 
 export async function POST(request: Request) {
-  const rawBody = await request.text();
+  const rawBody = await request.json();
 
-  console.log('Ghost webhook payload:', rawBody);
+  console.log('Ghost webhook payload:', rawBody.url);
 
   return NextResponse.json({ ok: true });
 }
