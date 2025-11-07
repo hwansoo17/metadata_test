@@ -1,8 +1,6 @@
 import { Geist, Geist_Mono } from 'next/font/google';
 import Link from 'next/link';
-import Script from 'next/script';
 import './globals.css';
-import { PrerenderReady } from './prerender-ready';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -14,26 +12,31 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          src="http://localhost:3002/meta-loader.v1.js"
+          data-id="2c2126013e0b"
+          data-token="2c2126013e0b"
+          data-lang="auto"
+          data-scope="entire"
+          data-variant="stable"
+          data-mode="override"></script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Script id="prerender-ready-init" strategy="beforeInteractive">
-          {(`
-            window.prerenderReady = false;
-          `).trim()}
-        </Script>
         <header>
           <nav>
             <Link href="/">Home</Link> | <Link href="/about">About</Link>
           </nav>
         </header>
-        <PrerenderReady />
         {children}
       </body>
     </html>

@@ -1,9 +1,3 @@
-import { buildMetadata } from '../seo/metadata-factory';
-
-export async function generateMetadata() {
-  return buildMetadata({ pathname: '/about' });
-}
-
 export default function AboutPage() {
   return (
     <main>
