@@ -1,8 +1,5 @@
 import { NextResponse } from 'next/server';
-
-const HOST = 'blog.b-cube.store';
 const KEY = '8989f99c2c124870ab46e7d8ca054bcf'; // 당신의 IndexNow 키
-const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 
 export async function POST(request: Request) {
   try {
@@ -14,6 +11,9 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: false, error: 'No URL' }, { status: 400 });
     }
 
+    const host = new URL(url).host; // URL의 실제 호스트로 맞춤
+    const keyLocation = `https://${host}/${KEY}.txt`;
+
     console.log('📫 새 게시글 URL:', url);
 
     // IndexNow에 단일 URL 제출
@@ -21,9 +21,9 @@ export async function POST(request: Request) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        host: HOST,
+        host: host,
         key: KEY,
-        keyLocation: KEY_LOCATION,
+        keyLocation: keyLocation,
         urlList: [url],
       }),
     });
