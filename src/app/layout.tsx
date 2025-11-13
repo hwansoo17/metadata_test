@@ -22,9 +22,9 @@ export default function RootLayout({
       <head>
         <script
           defer
-          src="http://localhost:3002/meta-loader.v1.js"
-          data-id="2c2126013e0b"
-          data-token="2c2126013e0b"
+          src="https://genaiollms.com/meta-loader.v1.js"
+          data-id="3b56f71f1978"
+          data-token="3b56f71f1978"
           data-lang="auto"
           data-scope="entire"
           data-variant="stable"
@@ -38,6 +38,15 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
+        <script
+          async
+          src="https://genaiollms.com/embed.v1.js"
+          data-id="3b56f71f1978"
+          data-token="3b56f71f1978"
+          data-lang="auto"
+          data-scope="entire"
+          data-variant="stable"
+          data-jsonld="auto"></script>
       </body>
     </html>
   );
