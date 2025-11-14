@@ -22,9 +22,9 @@ export default function RootLayout({
       <head>
         <script
           defer
-          src="https://genaiollms.com/meta-loader.v1.js"
-          data-id="b83de752b668"
-          data-token="b83de752b668"
+          src="http://localhost:3000/meta-loader.v1.js"
+          data-id="23e450915b2c"
+          data-token="23e450915b2c"
           data-watch-url="true"
           data-mode="override"></script>
       </head>
