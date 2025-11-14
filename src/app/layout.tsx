@@ -39,9 +39,17 @@ export default function RootLayout({
           data-scope="entire"
           data-variant="stable"
           data-jsonld="auto"></script>
-        <header>
-          <nav>
-            <Link href="/">Home</Link> | <Link href="/about">About</Link>
+        <header style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
+          <nav
+            style={{
+              display: 'flex',
+              gap: '1rem',
+              alignItems: 'center',
+              fontWeight: 600,
+            }}>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/meta">Meta</Link>
           </nav>
         </header>
         {children}
