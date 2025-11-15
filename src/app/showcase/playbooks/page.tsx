@@ -2,13 +2,13 @@ import Link from 'next/link';
 
 import { SHOWCASE_CATEGORIES } from '@/lib/showcase-routes';
 
-const CATEGORY = SHOWCASE_CATEGORIES.find((category) => category.slug === 'playbooks');
-
-if (!CATEGORY) {
-  throw new Error('Playbooks showcase 데이터가 필요합니다.');
-}
-
 export default function PlaybooksShowcaseCategoryPage() {
+  const category = SHOWCASE_CATEGORIES.find((item) => item.slug === 'playbooks');
+
+  if (!category) {
+    throw new Error('Playbooks showcase 데이터가 필요합니다.');
+  }
+
   return (
     <main
       style={{
@@ -22,8 +22,8 @@ export default function PlaybooksShowcaseCategoryPage() {
     >
       <header style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         <p style={{ margin: 0, color: '#888', fontWeight: 600 }}>Showcase · Playbooks</p>
-        <h1 style={{ margin: 0 }}>{CATEGORY.label}</h1>
-        <p style={{ margin: 0, color: '#555', lineHeight: 1.5 }}>{CATEGORY.description}</p>
+        <h1 style={{ margin: 0 }}>{category.label}</h1>
+        <p style={{ margin: 0, color: '#555', lineHeight: 1.5 }}>{category.description}</p>
       </header>
 
       <section
@@ -33,7 +33,7 @@ export default function PlaybooksShowcaseCategoryPage() {
           gap: '1.25rem',
         }}
       >
-        {CATEGORY.children.map((child) => (
+        {category.children.map((child) => (
           <Link
             key={child.href}
             href={child.href}
@@ -60,4 +60,3 @@ export default function PlaybooksShowcaseCategoryPage() {
     </main>
   );
 }
-
