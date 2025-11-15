@@ -1,0 +1,1557 @@
+[
+  {
+    "label": "Company",
+    "path": "/company",
+    "children": [
+      {
+        "label": "Company About",
+        "path": "/company/about",
+        "children": [
+          {
+            "label": "About Overview 1",
+            "path": "/company/about/overview-1",
+            "files": [
+              "about-overview-1.mdx",
+              "about-overview-1.json",
+              "about-overview-1.tsx",
+              "about-overview-1-notes.md",
+              "about-overview-1-assets"
+            ]
+          },
+          {
+            "label": "About Insights 2",
+            "path": "/company/about/insights-2",
+            "files": [
+              "about-insights-2.mdx",
+              "about-insights-2.json",
+              "about-insights-2.tsx",
+              "about-insights-2-notes.md",
+              "about-insights-2-assets"
+            ]
+          },
+          {
+            "label": "About Guides 3",
+            "path": "/company/about/guides-3",
+            "files": [
+              "about-guides-3.mdx",
+              "about-guides-3.json",
+              "about-guides-3.tsx",
+              "about-guides-3-notes.md",
+              "about-guides-3-assets"
+            ]
+          },
+          {
+            "label": "About Faq 4",
+            "path": "/company/about/faq-4",
+            "files": [
+              "about-faq-4.mdx",
+              "about-faq-4.json",
+              "about-faq-4.tsx",
+              "about-faq-4-notes.md",
+              "about-faq-4-assets"
+            ]
+          },
+          {
+            "label": "About Assets 5",
+            "path": "/company/about/assets-5",
+            "files": [
+              "about-assets-5.mdx",
+              "about-assets-5.json",
+              "about-assets-5.tsx",
+              "about-assets-5-notes.md",
+              "about-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Company Team",
+        "path": "/company/team",
+        "children": [
+          {
+            "label": "Team Overview 1",
+            "path": "/company/team/overview-1",
+            "files": [
+              "team-overview-1.mdx",
+              "team-overview-1.json",
+              "team-overview-1.tsx",
+              "team-overview-1-notes.md",
+              "team-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Team Insights 2",
+            "path": "/company/team/insights-2",
+            "files": [
+              "team-insights-2.mdx",
+              "team-insights-2.json",
+              "team-insights-2.tsx",
+              "team-insights-2-notes.md",
+              "team-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Team Guides 3",
+            "path": "/company/team/guides-3",
+            "files": [
+              "team-guides-3.mdx",
+              "team-guides-3.json",
+              "team-guides-3.tsx",
+              "team-guides-3-notes.md",
+              "team-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Team Faq 4",
+            "path": "/company/team/faq-4",
+            "files": [
+              "team-faq-4.mdx",
+              "team-faq-4.json",
+              "team-faq-4.tsx",
+              "team-faq-4-notes.md",
+              "team-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Team Assets 5",
+            "path": "/company/team/assets-5",
+            "files": [
+              "team-assets-5.mdx",
+              "team-assets-5.json",
+              "team-assets-5.tsx",
+              "team-assets-5-notes.md",
+              "team-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Company Careers",
+        "path": "/company/careers",
+        "children": [
+          {
+            "label": "Careers Overview 1",
+            "path": "/company/careers/overview-1",
+            "files": [
+              "careers-overview-1.mdx",
+              "careers-overview-1.json",
+              "careers-overview-1.tsx",
+              "careers-overview-1-notes.md",
+              "careers-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Careers Insights 2",
+            "path": "/company/careers/insights-2",
+            "files": [
+              "careers-insights-2.mdx",
+              "careers-insights-2.json",
+              "careers-insights-2.tsx",
+              "careers-insights-2-notes.md",
+              "careers-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Careers Guides 3",
+            "path": "/company/careers/guides-3",
+            "files": [
+              "careers-guides-3.mdx",
+              "careers-guides-3.json",
+              "careers-guides-3.tsx",
+              "careers-guides-3-notes.md",
+              "careers-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Careers Faq 4",
+            "path": "/company/careers/faq-4",
+            "files": [
+              "careers-faq-4.mdx",
+              "careers-faq-4.json",
+              "careers-faq-4.tsx",
+              "careers-faq-4-notes.md",
+              "careers-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Careers Assets 5",
+            "path": "/company/careers/assets-5",
+            "files": [
+              "careers-assets-5.mdx",
+              "careers-assets-5.json",
+              "careers-assets-5.tsx",
+              "careers-assets-5-notes.md",
+              "careers-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Company Culture",
+        "path": "/company/culture",
+        "children": [
+          {
+            "label": "Culture Overview 1",
+            "path": "/company/culture/overview-1",
+            "files": [
+              "culture-overview-1.mdx",
+              "culture-overview-1.json",
+              "culture-overview-1.tsx",
+              "culture-overview-1-notes.md",
+              "culture-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Culture Insights 2",
+            "path": "/company/culture/insights-2",
+            "files": [
+              "culture-insights-2.mdx",
+              "culture-insights-2.json",
+              "culture-insights-2.tsx",
+              "culture-insights-2-notes.md",
+              "culture-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Culture Guides 3",
+            "path": "/company/culture/guides-3",
+            "files": [
+              "culture-guides-3.mdx",
+              "culture-guides-3.json",
+              "culture-guides-3.tsx",
+              "culture-guides-3-notes.md",
+              "culture-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Culture Faq 4",
+            "path": "/company/culture/faq-4",
+            "files": [
+              "culture-faq-4.mdx",
+              "culture-faq-4.json",
+              "culture-faq-4.tsx",
+              "culture-faq-4-notes.md",
+              "culture-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Culture Assets 5",
+            "path": "/company/culture/assets-5",
+            "files": [
+              "culture-assets-5.mdx",
+              "culture-assets-5.json",
+              "culture-assets-5.tsx",
+              "culture-assets-5-notes.md",
+              "culture-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Company Timeline",
+        "path": "/company/timeline",
+        "children": [
+          {
+            "label": "Timeline Overview 1",
+            "path": "/company/timeline/overview-1",
+            "files": [
+              "timeline-overview-1.mdx",
+              "timeline-overview-1.json",
+              "timeline-overview-1.tsx",
+              "timeline-overview-1-notes.md",
+              "timeline-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Timeline Insights 2",
+            "path": "/company/timeline/insights-2",
+            "files": [
+              "timeline-insights-2.mdx",
+              "timeline-insights-2.json",
+              "timeline-insights-2.tsx",
+              "timeline-insights-2-notes.md",
+              "timeline-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Timeline Guides 3",
+            "path": "/company/timeline/guides-3",
+            "files": [
+              "timeline-guides-3.mdx",
+              "timeline-guides-3.json",
+              "timeline-guides-3.tsx",
+              "timeline-guides-3-notes.md",
+              "timeline-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Timeline Faq 4",
+            "path": "/company/timeline/faq-4",
+            "files": [
+              "timeline-faq-4.mdx",
+              "timeline-faq-4.json",
+              "timeline-faq-4.tsx",
+              "timeline-faq-4-notes.md",
+              "timeline-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Timeline Assets 5",
+            "path": "/company/timeline/assets-5",
+            "files": [
+              "timeline-assets-5.mdx",
+              "timeline-assets-5.json",
+              "timeline-assets-5.tsx",
+              "timeline-assets-5-notes.md",
+              "timeline-assets-5-assets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Products",
+    "path": "/products",
+    "children": [
+      {
+        "label": "Products Overview",
+        "path": "/products/overview",
+        "children": [
+          {
+            "label": "Overview Overview 1",
+            "path": "/products/overview/overview-1",
+            "files": [
+              "overview-overview-1.mdx",
+              "overview-overview-1.json",
+              "overview-overview-1.tsx",
+              "overview-overview-1-notes.md",
+              "overview-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Overview Insights 2",
+            "path": "/products/overview/insights-2",
+            "files": [
+              "overview-insights-2.mdx",
+              "overview-insights-2.json",
+              "overview-insights-2.tsx",
+              "overview-insights-2-notes.md",
+              "overview-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Overview Guides 3",
+            "path": "/products/overview/guides-3",
+            "files": [
+              "overview-guides-3.mdx",
+              "overview-guides-3.json",
+              "overview-guides-3.tsx",
+              "overview-guides-3-notes.md",
+              "overview-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Overview Faq 4",
+            "path": "/products/overview/faq-4",
+            "files": [
+              "overview-faq-4.mdx",
+              "overview-faq-4.json",
+              "overview-faq-4.tsx",
+              "overview-faq-4-notes.md",
+              "overview-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Overview Assets 5",
+            "path": "/products/overview/assets-5",
+            "files": [
+              "overview-assets-5.mdx",
+              "overview-assets-5.json",
+              "overview-assets-5.tsx",
+              "overview-assets-5-notes.md",
+              "overview-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Products Platform",
+        "path": "/products/platform",
+        "children": [
+          {
+            "label": "Platform Overview 1",
+            "path": "/products/platform/overview-1",
+            "files": [
+              "platform-overview-1.mdx",
+              "platform-overview-1.json",
+              "platform-overview-1.tsx",
+              "platform-overview-1-notes.md",
+              "platform-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Platform Insights 2",
+            "path": "/products/platform/insights-2",
+            "files": [
+              "platform-insights-2.mdx",
+              "platform-insights-2.json",
+              "platform-insights-2.tsx",
+              "platform-insights-2-notes.md",
+              "platform-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Platform Guides 3",
+            "path": "/products/platform/guides-3",
+            "files": [
+              "platform-guides-3.mdx",
+              "platform-guides-3.json",
+              "platform-guides-3.tsx",
+              "platform-guides-3-notes.md",
+              "platform-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Platform Faq 4",
+            "path": "/products/platform/faq-4",
+            "files": [
+              "platform-faq-4.mdx",
+              "platform-faq-4.json",
+              "platform-faq-4.tsx",
+              "platform-faq-4-notes.md",
+              "platform-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Platform Assets 5",
+            "path": "/products/platform/assets-5",
+            "files": [
+              "platform-assets-5.mdx",
+              "platform-assets-5.json",
+              "platform-assets-5.tsx",
+              "platform-assets-5-notes.md",
+              "platform-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Products Integrations",
+        "path": "/products/integrations",
+        "children": [
+          {
+            "label": "Integrations Overview 1",
+            "path": "/products/integrations/overview-1",
+            "files": [
+              "integrations-overview-1.mdx",
+              "integrations-overview-1.json",
+              "integrations-overview-1.tsx",
+              "integrations-overview-1-notes.md",
+              "integrations-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Integrations Insights 2",
+            "path": "/products/integrations/insights-2",
+            "files": [
+              "integrations-insights-2.mdx",
+              "integrations-insights-2.json",
+              "integrations-insights-2.tsx",
+              "integrations-insights-2-notes.md",
+              "integrations-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Integrations Guides 3",
+            "path": "/products/integrations/guides-3",
+            "files": [
+              "integrations-guides-3.mdx",
+              "integrations-guides-3.json",
+              "integrations-guides-3.tsx",
+              "integrations-guides-3-notes.md",
+              "integrations-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Integrations Faq 4",
+            "path": "/products/integrations/faq-4",
+            "files": [
+              "integrations-faq-4.mdx",
+              "integrations-faq-4.json",
+              "integrations-faq-4.tsx",
+              "integrations-faq-4-notes.md",
+              "integrations-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Integrations Assets 5",
+            "path": "/products/integrations/assets-5",
+            "files": [
+              "integrations-assets-5.mdx",
+              "integrations-assets-5.json",
+              "integrations-assets-5.tsx",
+              "integrations-assets-5-notes.md",
+              "integrations-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Products Pricing",
+        "path": "/products/pricing",
+        "children": [
+          {
+            "label": "Pricing Overview 1",
+            "path": "/products/pricing/overview-1",
+            "files": [
+              "pricing-overview-1.mdx",
+              "pricing-overview-1.json",
+              "pricing-overview-1.tsx",
+              "pricing-overview-1-notes.md",
+              "pricing-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Pricing Insights 2",
+            "path": "/products/pricing/insights-2",
+            "files": [
+              "pricing-insights-2.mdx",
+              "pricing-insights-2.json",
+              "pricing-insights-2.tsx",
+              "pricing-insights-2-notes.md",
+              "pricing-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Pricing Guides 3",
+            "path": "/products/pricing/guides-3",
+            "files": [
+              "pricing-guides-3.mdx",
+              "pricing-guides-3.json",
+              "pricing-guides-3.tsx",
+              "pricing-guides-3-notes.md",
+              "pricing-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Pricing Faq 4",
+            "path": "/products/pricing/faq-4",
+            "files": [
+              "pricing-faq-4.mdx",
+              "pricing-faq-4.json",
+              "pricing-faq-4.tsx",
+              "pricing-faq-4-notes.md",
+              "pricing-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Pricing Assets 5",
+            "path": "/products/pricing/assets-5",
+            "files": [
+              "pricing-assets-5.mdx",
+              "pricing-assets-5.json",
+              "pricing-assets-5.tsx",
+              "pricing-assets-5-notes.md",
+              "pricing-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Products Roadmap",
+        "path": "/products/roadmap",
+        "children": [
+          {
+            "label": "Roadmap Overview 1",
+            "path": "/products/roadmap/overview-1",
+            "files": [
+              "roadmap-overview-1.mdx",
+              "roadmap-overview-1.json",
+              "roadmap-overview-1.tsx",
+              "roadmap-overview-1-notes.md",
+              "roadmap-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Roadmap Insights 2",
+            "path": "/products/roadmap/insights-2",
+            "files": [
+              "roadmap-insights-2.mdx",
+              "roadmap-insights-2.json",
+              "roadmap-insights-2.tsx",
+              "roadmap-insights-2-notes.md",
+              "roadmap-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Roadmap Guides 3",
+            "path": "/products/roadmap/guides-3",
+            "files": [
+              "roadmap-guides-3.mdx",
+              "roadmap-guides-3.json",
+              "roadmap-guides-3.tsx",
+              "roadmap-guides-3-notes.md",
+              "roadmap-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Roadmap Faq 4",
+            "path": "/products/roadmap/faq-4",
+            "files": [
+              "roadmap-faq-4.mdx",
+              "roadmap-faq-4.json",
+              "roadmap-faq-4.tsx",
+              "roadmap-faq-4-notes.md",
+              "roadmap-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Roadmap Assets 5",
+            "path": "/products/roadmap/assets-5",
+            "files": [
+              "roadmap-assets-5.mdx",
+              "roadmap-assets-5.json",
+              "roadmap-assets-5.tsx",
+              "roadmap-assets-5-notes.md",
+              "roadmap-assets-5-assets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Services",
+    "path": "/services",
+    "children": [
+      {
+        "label": "Services Consulting",
+        "path": "/services/consulting",
+        "children": [
+          {
+            "label": "Consulting Overview 1",
+            "path": "/services/consulting/overview-1",
+            "files": [
+              "consulting-overview-1.mdx",
+              "consulting-overview-1.json",
+              "consulting-overview-1.tsx",
+              "consulting-overview-1-notes.md",
+              "consulting-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Consulting Insights 2",
+            "path": "/services/consulting/insights-2",
+            "files": [
+              "consulting-insights-2.mdx",
+              "consulting-insights-2.json",
+              "consulting-insights-2.tsx",
+              "consulting-insights-2-notes.md",
+              "consulting-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Consulting Guides 3",
+            "path": "/services/consulting/guides-3",
+            "files": [
+              "consulting-guides-3.mdx",
+              "consulting-guides-3.json",
+              "consulting-guides-3.tsx",
+              "consulting-guides-3-notes.md",
+              "consulting-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Consulting Faq 4",
+            "path": "/services/consulting/faq-4",
+            "files": [
+              "consulting-faq-4.mdx",
+              "consulting-faq-4.json",
+              "consulting-faq-4.tsx",
+              "consulting-faq-4-notes.md",
+              "consulting-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Consulting Assets 5",
+            "path": "/services/consulting/assets-5",
+            "files": [
+              "consulting-assets-5.mdx",
+              "consulting-assets-5.json",
+              "consulting-assets-5.tsx",
+              "consulting-assets-5-notes.md",
+              "consulting-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Services Implementation",
+        "path": "/services/implementation",
+        "children": [
+          {
+            "label": "Implementation Overview 1",
+            "path": "/services/implementation/overview-1",
+            "files": [
+              "implementation-overview-1.mdx",
+              "implementation-overview-1.json",
+              "implementation-overview-1.tsx",
+              "implementation-overview-1-notes.md",
+              "implementation-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Implementation Insights 2",
+            "path": "/services/implementation/insights-2",
+            "files": [
+              "implementation-insights-2.mdx",
+              "implementation-insights-2.json",
+              "implementation-insights-2.tsx",
+              "implementation-insights-2-notes.md",
+              "implementation-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Implementation Guides 3",
+            "path": "/services/implementation/guides-3",
+            "files": [
+              "implementation-guides-3.mdx",
+              "implementation-guides-3.json",
+              "implementation-guides-3.tsx",
+              "implementation-guides-3-notes.md",
+              "implementation-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Implementation Faq 4",
+            "path": "/services/implementation/faq-4",
+            "files": [
+              "implementation-faq-4.mdx",
+              "implementation-faq-4.json",
+              "implementation-faq-4.tsx",
+              "implementation-faq-4-notes.md",
+              "implementation-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Implementation Assets 5",
+            "path": "/services/implementation/assets-5",
+            "files": [
+              "implementation-assets-5.mdx",
+              "implementation-assets-5.json",
+              "implementation-assets-5.tsx",
+              "implementation-assets-5-notes.md",
+              "implementation-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Services Training",
+        "path": "/services/training",
+        "children": [
+          {
+            "label": "Training Overview 1",
+            "path": "/services/training/overview-1",
+            "files": [
+              "training-overview-1.mdx",
+              "training-overview-1.json",
+              "training-overview-1.tsx",
+              "training-overview-1-notes.md",
+              "training-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Training Insights 2",
+            "path": "/services/training/insights-2",
+            "files": [
+              "training-insights-2.mdx",
+              "training-insights-2.json",
+              "training-insights-2.tsx",
+              "training-insights-2-notes.md",
+              "training-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Training Guides 3",
+            "path": "/services/training/guides-3",
+            "files": [
+              "training-guides-3.mdx",
+              "training-guides-3.json",
+              "training-guides-3.tsx",
+              "training-guides-3-notes.md",
+              "training-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Training Faq 4",
+            "path": "/services/training/faq-4",
+            "files": [
+              "training-faq-4.mdx",
+              "training-faq-4.json",
+              "training-faq-4.tsx",
+              "training-faq-4-notes.md",
+              "training-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Training Assets 5",
+            "path": "/services/training/assets-5",
+            "files": [
+              "training-assets-5.mdx",
+              "training-assets-5.json",
+              "training-assets-5.tsx",
+              "training-assets-5-notes.md",
+              "training-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Services Support",
+        "path": "/services/support",
+        "children": [
+          {
+            "label": "Support Overview 1",
+            "path": "/services/support/overview-1",
+            "files": [
+              "support-overview-1.mdx",
+              "support-overview-1.json",
+              "support-overview-1.tsx",
+              "support-overview-1-notes.md",
+              "support-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Support Insights 2",
+            "path": "/services/support/insights-2",
+            "files": [
+              "support-insights-2.mdx",
+              "support-insights-2.json",
+              "support-insights-2.tsx",
+              "support-insights-2-notes.md",
+              "support-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Support Guides 3",
+            "path": "/services/support/guides-3",
+            "files": [
+              "support-guides-3.mdx",
+              "support-guides-3.json",
+              "support-guides-3.tsx",
+              "support-guides-3-notes.md",
+              "support-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Support Faq 4",
+            "path": "/services/support/faq-4",
+            "files": [
+              "support-faq-4.mdx",
+              "support-faq-4.json",
+              "support-faq-4.tsx",
+              "support-faq-4-notes.md",
+              "support-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Support Assets 5",
+            "path": "/services/support/assets-5",
+            "files": [
+              "support-assets-5.mdx",
+              "support-assets-5.json",
+              "support-assets-5.tsx",
+              "support-assets-5-notes.md",
+              "support-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Services Labs",
+        "path": "/services/labs",
+        "children": [
+          {
+            "label": "Labs Overview 1",
+            "path": "/services/labs/overview-1",
+            "files": [
+              "labs-overview-1.mdx",
+              "labs-overview-1.json",
+              "labs-overview-1.tsx",
+              "labs-overview-1-notes.md",
+              "labs-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Labs Insights 2",
+            "path": "/services/labs/insights-2",
+            "files": [
+              "labs-insights-2.mdx",
+              "labs-insights-2.json",
+              "labs-insights-2.tsx",
+              "labs-insights-2-notes.md",
+              "labs-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Labs Guides 3",
+            "path": "/services/labs/guides-3",
+            "files": [
+              "labs-guides-3.mdx",
+              "labs-guides-3.json",
+              "labs-guides-3.tsx",
+              "labs-guides-3-notes.md",
+              "labs-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Labs Faq 4",
+            "path": "/services/labs/faq-4",
+            "files": [
+              "labs-faq-4.mdx",
+              "labs-faq-4.json",
+              "labs-faq-4.tsx",
+              "labs-faq-4-notes.md",
+              "labs-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Labs Assets 5",
+            "path": "/services/labs/assets-5",
+            "files": [
+              "labs-assets-5.mdx",
+              "labs-assets-5.json",
+              "labs-assets-5.tsx",
+              "labs-assets-5-notes.md",
+              "labs-assets-5-assets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Resources",
+    "path": "/resources",
+    "children": [
+      {
+        "label": "Resources Docs",
+        "path": "/resources/docs",
+        "children": [
+          {
+            "label": "Docs Overview 1",
+            "path": "/resources/docs/overview-1",
+            "files": [
+              "docs-overview-1.mdx",
+              "docs-overview-1.json",
+              "docs-overview-1.tsx",
+              "docs-overview-1-notes.md",
+              "docs-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Docs Insights 2",
+            "path": "/resources/docs/insights-2",
+            "files": [
+              "docs-insights-2.mdx",
+              "docs-insights-2.json",
+              "docs-insights-2.tsx",
+              "docs-insights-2-notes.md",
+              "docs-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Docs Guides 3",
+            "path": "/resources/docs/guides-3",
+            "files": [
+              "docs-guides-3.mdx",
+              "docs-guides-3.json",
+              "docs-guides-3.tsx",
+              "docs-guides-3-notes.md",
+              "docs-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Docs Faq 4",
+            "path": "/resources/docs/faq-4",
+            "files": [
+              "docs-faq-4.mdx",
+              "docs-faq-4.json",
+              "docs-faq-4.tsx",
+              "docs-faq-4-notes.md",
+              "docs-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Docs Assets 5",
+            "path": "/resources/docs/assets-5",
+            "files": [
+              "docs-assets-5.mdx",
+              "docs-assets-5.json",
+              "docs-assets-5.tsx",
+              "docs-assets-5-notes.md",
+              "docs-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Resources Guides",
+        "path": "/resources/guides",
+        "children": [
+          {
+            "label": "Guides Overview 1",
+            "path": "/resources/guides/overview-1",
+            "files": [
+              "guides-overview-1.mdx",
+              "guides-overview-1.json",
+              "guides-overview-1.tsx",
+              "guides-overview-1-notes.md",
+              "guides-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Guides Insights 2",
+            "path": "/resources/guides/insights-2",
+            "files": [
+              "guides-insights-2.mdx",
+              "guides-insights-2.json",
+              "guides-insights-2.tsx",
+              "guides-insights-2-notes.md",
+              "guides-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Guides Guides 3",
+            "path": "/resources/guides/guides-3",
+            "files": [
+              "guides-guides-3.mdx",
+              "guides-guides-3.json",
+              "guides-guides-3.tsx",
+              "guides-guides-3-notes.md",
+              "guides-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Guides Faq 4",
+            "path": "/resources/guides/faq-4",
+            "files": [
+              "guides-faq-4.mdx",
+              "guides-faq-4.json",
+              "guides-faq-4.tsx",
+              "guides-faq-4-notes.md",
+              "guides-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Guides Assets 5",
+            "path": "/resources/guides/assets-5",
+            "files": [
+              "guides-assets-5.mdx",
+              "guides-assets-5.json",
+              "guides-assets-5.tsx",
+              "guides-assets-5-notes.md",
+              "guides-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Resources Tutorials",
+        "path": "/resources/tutorials",
+        "children": [
+          {
+            "label": "Tutorials Overview 1",
+            "path": "/resources/tutorials/overview-1",
+            "files": [
+              "tutorials-overview-1.mdx",
+              "tutorials-overview-1.json",
+              "tutorials-overview-1.tsx",
+              "tutorials-overview-1-notes.md",
+              "tutorials-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Tutorials Insights 2",
+            "path": "/resources/tutorials/insights-2",
+            "files": [
+              "tutorials-insights-2.mdx",
+              "tutorials-insights-2.json",
+              "tutorials-insights-2.tsx",
+              "tutorials-insights-2-notes.md",
+              "tutorials-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Tutorials Guides 3",
+            "path": "/resources/tutorials/guides-3",
+            "files": [
+              "tutorials-guides-3.mdx",
+              "tutorials-guides-3.json",
+              "tutorials-guides-3.tsx",
+              "tutorials-guides-3-notes.md",
+              "tutorials-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Tutorials Faq 4",
+            "path": "/resources/tutorials/faq-4",
+            "files": [
+              "tutorials-faq-4.mdx",
+              "tutorials-faq-4.json",
+              "tutorials-faq-4.tsx",
+              "tutorials-faq-4-notes.md",
+              "tutorials-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Tutorials Assets 5",
+            "path": "/resources/tutorials/assets-5",
+            "files": [
+              "tutorials-assets-5.mdx",
+              "tutorials-assets-5.json",
+              "tutorials-assets-5.tsx",
+              "tutorials-assets-5-notes.md",
+              "tutorials-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Resources Webinars",
+        "path": "/resources/webinars",
+        "children": [
+          {
+            "label": "Webinars Overview 1",
+            "path": "/resources/webinars/overview-1",
+            "files": [
+              "webinars-overview-1.mdx",
+              "webinars-overview-1.json",
+              "webinars-overview-1.tsx",
+              "webinars-overview-1-notes.md",
+              "webinars-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Webinars Insights 2",
+            "path": "/resources/webinars/insights-2",
+            "files": [
+              "webinars-insights-2.mdx",
+              "webinars-insights-2.json",
+              "webinars-insights-2.tsx",
+              "webinars-insights-2-notes.md",
+              "webinars-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Webinars Guides 3",
+            "path": "/resources/webinars/guides-3",
+            "files": [
+              "webinars-guides-3.mdx",
+              "webinars-guides-3.json",
+              "webinars-guides-3.tsx",
+              "webinars-guides-3-notes.md",
+              "webinars-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Webinars Faq 4",
+            "path": "/resources/webinars/faq-4",
+            "files": [
+              "webinars-faq-4.mdx",
+              "webinars-faq-4.json",
+              "webinars-faq-4.tsx",
+              "webinars-faq-4-notes.md",
+              "webinars-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Webinars Assets 5",
+            "path": "/resources/webinars/assets-5",
+            "files": [
+              "webinars-assets-5.mdx",
+              "webinars-assets-5.json",
+              "webinars-assets-5.tsx",
+              "webinars-assets-5-notes.md",
+              "webinars-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Resources Reports",
+        "path": "/resources/reports",
+        "children": [
+          {
+            "label": "Reports Overview 1",
+            "path": "/resources/reports/overview-1",
+            "files": [
+              "reports-overview-1.mdx",
+              "reports-overview-1.json",
+              "reports-overview-1.tsx",
+              "reports-overview-1-notes.md",
+              "reports-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Reports Insights 2",
+            "path": "/resources/reports/insights-2",
+            "files": [
+              "reports-insights-2.mdx",
+              "reports-insights-2.json",
+              "reports-insights-2.tsx",
+              "reports-insights-2-notes.md",
+              "reports-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Reports Guides 3",
+            "path": "/resources/reports/guides-3",
+            "files": [
+              "reports-guides-3.mdx",
+              "reports-guides-3.json",
+              "reports-guides-3.tsx",
+              "reports-guides-3-notes.md",
+              "reports-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Reports Faq 4",
+            "path": "/resources/reports/faq-4",
+            "files": [
+              "reports-faq-4.mdx",
+              "reports-faq-4.json",
+              "reports-faq-4.tsx",
+              "reports-faq-4-notes.md",
+              "reports-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Reports Assets 5",
+            "path": "/resources/reports/assets-5",
+            "files": [
+              "reports-assets-5.mdx",
+              "reports-assets-5.json",
+              "reports-assets-5.tsx",
+              "reports-assets-5-notes.md",
+              "reports-assets-5-assets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Community",
+    "path": "/community",
+    "children": [
+      {
+        "label": "Community Forum",
+        "path": "/community/forum",
+        "children": [
+          {
+            "label": "Forum Overview 1",
+            "path": "/community/forum/overview-1",
+            "files": [
+              "forum-overview-1.mdx",
+              "forum-overview-1.json",
+              "forum-overview-1.tsx",
+              "forum-overview-1-notes.md",
+              "forum-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Forum Insights 2",
+            "path": "/community/forum/insights-2",
+            "files": [
+              "forum-insights-2.mdx",
+              "forum-insights-2.json",
+              "forum-insights-2.tsx",
+              "forum-insights-2-notes.md",
+              "forum-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Forum Guides 3",
+            "path": "/community/forum/guides-3",
+            "files": [
+              "forum-guides-3.mdx",
+              "forum-guides-3.json",
+              "forum-guides-3.tsx",
+              "forum-guides-3-notes.md",
+              "forum-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Forum Faq 4",
+            "path": "/community/forum/faq-4",
+            "files": [
+              "forum-faq-4.mdx",
+              "forum-faq-4.json",
+              "forum-faq-4.tsx",
+              "forum-faq-4-notes.md",
+              "forum-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Forum Assets 5",
+            "path": "/community/forum/assets-5",
+            "files": [
+              "forum-assets-5.mdx",
+              "forum-assets-5.json",
+              "forum-assets-5.tsx",
+              "forum-assets-5-notes.md",
+              "forum-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Community Events",
+        "path": "/community/events",
+        "children": [
+          {
+            "label": "Events Overview 1",
+            "path": "/community/events/overview-1",
+            "files": [
+              "events-overview-1.mdx",
+              "events-overview-1.json",
+              "events-overview-1.tsx",
+              "events-overview-1-notes.md",
+              "events-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Events Insights 2",
+            "path": "/community/events/insights-2",
+            "files": [
+              "events-insights-2.mdx",
+              "events-insights-2.json",
+              "events-insights-2.tsx",
+              "events-insights-2-notes.md",
+              "events-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Events Guides 3",
+            "path": "/community/events/guides-3",
+            "files": [
+              "events-guides-3.mdx",
+              "events-guides-3.json",
+              "events-guides-3.tsx",
+              "events-guides-3-notes.md",
+              "events-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Events Faq 4",
+            "path": "/community/events/faq-4",
+            "files": [
+              "events-faq-4.mdx",
+              "events-faq-4.json",
+              "events-faq-4.tsx",
+              "events-faq-4-notes.md",
+              "events-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Events Assets 5",
+            "path": "/community/events/assets-5",
+            "files": [
+              "events-assets-5.mdx",
+              "events-assets-5.json",
+              "events-assets-5.tsx",
+              "events-assets-5-notes.md",
+              "events-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Community Ambassadors",
+        "path": "/community/ambassadors",
+        "children": [
+          {
+            "label": "Ambassadors Overview 1",
+            "path": "/community/ambassadors/overview-1",
+            "files": [
+              "ambassadors-overview-1.mdx",
+              "ambassadors-overview-1.json",
+              "ambassadors-overview-1.tsx",
+              "ambassadors-overview-1-notes.md",
+              "ambassadors-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Ambassadors Insights 2",
+            "path": "/community/ambassadors/insights-2",
+            "files": [
+              "ambassadors-insights-2.mdx",
+              "ambassadors-insights-2.json",
+              "ambassadors-insights-2.tsx",
+              "ambassadors-insights-2-notes.md",
+              "ambassadors-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Ambassadors Guides 3",
+            "path": "/community/ambassadors/guides-3",
+            "files": [
+              "ambassadors-guides-3.mdx",
+              "ambassadors-guides-3.json",
+              "ambassadors-guides-3.tsx",
+              "ambassadors-guides-3-notes.md",
+              "ambassadors-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Ambassadors Faq 4",
+            "path": "/community/ambassadors/faq-4",
+            "files": [
+              "ambassadors-faq-4.mdx",
+              "ambassadors-faq-4.json",
+              "ambassadors-faq-4.tsx",
+              "ambassadors-faq-4-notes.md",
+              "ambassadors-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Ambassadors Assets 5",
+            "path": "/community/ambassadors/assets-5",
+            "files": [
+              "ambassadors-assets-5.mdx",
+              "ambassadors-assets-5.json",
+              "ambassadors-assets-5.tsx",
+              "ambassadors-assets-5-notes.md",
+              "ambassadors-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Community Showcase",
+        "path": "/community/showcase",
+        "children": [
+          {
+            "label": "Showcase Overview 1",
+            "path": "/community/showcase/overview-1",
+            "files": [
+              "showcase-overview-1.mdx",
+              "showcase-overview-1.json",
+              "showcase-overview-1.tsx",
+              "showcase-overview-1-notes.md",
+              "showcase-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Showcase Insights 2",
+            "path": "/community/showcase/insights-2",
+            "files": [
+              "showcase-insights-2.mdx",
+              "showcase-insights-2.json",
+              "showcase-insights-2.tsx",
+              "showcase-insights-2-notes.md",
+              "showcase-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Showcase Guides 3",
+            "path": "/community/showcase/guides-3",
+            "files": [
+              "showcase-guides-3.mdx",
+              "showcase-guides-3.json",
+              "showcase-guides-3.tsx",
+              "showcase-guides-3-notes.md",
+              "showcase-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Showcase Faq 4",
+            "path": "/community/showcase/faq-4",
+            "files": [
+              "showcase-faq-4.mdx",
+              "showcase-faq-4.json",
+              "showcase-faq-4.tsx",
+              "showcase-faq-4-notes.md",
+              "showcase-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Showcase Assets 5",
+            "path": "/community/showcase/assets-5",
+            "files": [
+              "showcase-assets-5.mdx",
+              "showcase-assets-5.json",
+              "showcase-assets-5.tsx",
+              "showcase-assets-5-notes.md",
+              "showcase-assets-5-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Community Feedback",
+        "path": "/community/feedback",
+        "children": [
+          {
+            "label": "Feedback Overview 1",
+            "path": "/community/feedback/overview-1",
+            "files": [
+              "feedback-overview-1.mdx",
+              "feedback-overview-1.json",
+              "feedback-overview-1.tsx",
+              "feedback-overview-1-notes.md",
+              "feedback-overview-1-assets"
+            ]
+          },
+          {
+            "label": "Feedback Insights 2",
+            "path": "/community/feedback/insights-2",
+            "files": [
+              "feedback-insights-2.mdx",
+              "feedback-insights-2.json",
+              "feedback-insights-2.tsx",
+              "feedback-insights-2-notes.md",
+              "feedback-insights-2-assets"
+            ]
+          },
+          {
+            "label": "Feedback Guides 3",
+            "path": "/community/feedback/guides-3",
+            "files": [
+              "feedback-guides-3.mdx",
+              "feedback-guides-3.json",
+              "feedback-guides-3.tsx",
+              "feedback-guides-3-notes.md",
+              "feedback-guides-3-assets"
+            ]
+          },
+          {
+            "label": "Feedback Faq 4",
+            "path": "/community/feedback/faq-4",
+            "files": [
+              "feedback-faq-4.mdx",
+              "feedback-faq-4.json",
+              "feedback-faq-4.tsx",
+              "feedback-faq-4-notes.md",
+              "feedback-faq-4-assets"
+            ]
+          },
+          {
+            "label": "Feedback Assets 5",
+            "path": "/community/feedback/assets-5",
+            "files": [
+              "feedback-assets-5.mdx",
+              "feedback-assets-5.json",
+              "feedback-assets-5.tsx",
+              "feedback-assets-5-notes.md",
+              "feedback-assets-5-assets"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -49,6 +49,7 @@ export default function RootLayout({
             }}>
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
+            <Link href="/showcase">Showcase</Link>
             <Link href="/meta">Meta</Link>
           </nav>
         </header>
