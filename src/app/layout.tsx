@@ -22,23 +22,26 @@ export default function RootLayout({
       <head>
         <script
           defer
-          src="http://localhost:3000/meta-loader.v1.js"
-          data-id="ad3ac09c81fa"
-          data-token="ad3ac09c81fa"
+          src="https://genaiollms.com/meta-loader.v1.js"
+          data-id="646437669788"
+          data-token="646437669788"
           data-watch-url="true"
           data-mode="override"></script>
+        <script
+          src="https://botlog.genaiollms.com/bot-log.js"
+          defer
+          data-id="646437669788"
+          data-token="646437669788"></script>
+        <img
+          src="https://genaiollms.com/api/bot-log/646437669788/px"
+          width="1"
+          height="1"
+          alt=""
+          style={{ position: 'absolute', left: '-9999px' }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <script
-          async
-          src="https://genaiollms.com/embed.v1.js"
-          data-id="3b56f71f1978"
-          data-token="3b56f71f1978"
-          data-lang="auto"
-          data-scope="entire"
-          data-variant="stable"
-          data-jsonld="auto"></script>
         <header style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
           <nav
             style={{
