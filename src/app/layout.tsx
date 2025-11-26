@@ -23,22 +23,15 @@ export default function RootLayout({
         <script
           defer
           src="https://genaiollms.com/meta-loader.v1.js"
-          data-id="646437669788"
-          data-token="646437669788"
+          data-id="345ef91d7264"
+          data-token="345ef91d7264"
           data-watch-url="true"
           data-mode="override"></script>
         <script
           src="https://botlog.genaiollms.com/bot-log.js"
           defer
-          data-id="646437669788"
-          data-token="646437669788"></script>
-        <img
-          src="https://genaiollms.com/api/bot-log/646437669788/px"
-          width="1"
-          height="1"
-          alt=""
-          style={{ position: 'absolute', left: '-9999px' }}
-        />
+          data-id="345ef91d7264"
+          data-token="345ef91d7264"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
