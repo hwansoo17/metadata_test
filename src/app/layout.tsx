@@ -23,15 +23,15 @@ export default function RootLayout({
         <script
           defer
           src="https://genaiollms.com/meta-loader.v1.js"
-          data-id="345ef91d7264"
-          data-token="345ef91d7264"
+          data-id="56033352b6aa"
+          data-token="56033352b6aa"
           data-watch-url="true"
           data-mode="override"></script>
         <script
           src="https://botlog.genaiollms.com/bot-log.js"
           defer
-          data-id="345ef91d7264"
-          data-token="345ef91d7264"></script>
+          data-id="56033352b6aa"
+          data-token="56033352b6aa"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
