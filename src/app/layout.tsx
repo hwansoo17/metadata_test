@@ -19,20 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          defer
-          src="https://genaiollms.com/meta-loader.v1.js"
-          data-id="1828de5a2c27"
-          data-token="1828de5a2c27"
-          data-watch-url="true"
-          data-mode="override"></script>
-        <script
-          src="https://botlog.genaiollms.com/bot-log.js"
-          defer
-          data-id="1828de5a2c27"
-          data-token="1828de5a2c27"></script>
-      </head>
+      <head></head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <header style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>

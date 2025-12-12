@@ -106,10 +106,18 @@ export async function proxy(request: NextRequest) {
   } else {
     // Check if request is coming from a bot
     if (isBot) {
-      const newURL = 'http://localhost:3000/render?url=' + request.nextUrl.href;
+      const newURL = `http://service.prerender.io/${request.url}`;
+      const newHeaders = new Headers(request.headers);
+      newHeaders.set('X-Prerender-Token', process.env.PRERENDER_TOKEN || '');
+      newHeaders.set('X-Prerender-Int-Type', 'NextJS');
 
       try {
-        const res = await fetch(new Request(newURL));
+        const res = await fetch(
+          new Request(newURL, {
+            headers: newHeaders,
+            redirect: 'manual',
+          }),
+        );
 
         const responseHeaders = new Headers(res.headers);
         responseHeaders.set('X-Redirected-From', request.url);
@@ -123,10 +131,10 @@ export async function proxy(request: NextRequest) {
           statusText: res.statusText,
           headers: responseHeaders,
         });
-        console.log('Served prerendered page for bot:', userAgent);
+
         return response;
       } catch (error) {
-        console.log('Error fetching from Prerender.io:', error);
+        console.error('Error fetching from Prerender.io:', error);
         return NextResponse.next();
       }
     } else {

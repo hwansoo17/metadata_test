@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FormEvent, useState } from 'react';
 
 import { SHOWCASE_ROUTES } from '@/lib/showcase-routes';
+import Image from 'next/image';
 
 const FEATURED_SHOWCASE_ROUTES = SHOWCASE_ROUTES.slice(0, 6);
 
@@ -62,22 +63,28 @@ export default function HomePage() {
         display: 'flex',
         flexDirection: 'column',
         gap: '1.5rem',
-      }}
-    >
+      }}>
       <section>
         <h1>Ghost Admin 토큰 생성</h1>
-        <p>Ghost Admin API 키 하나만 넣으면 5분짜리 JWT 토큰을 만들어 드립니다.</p>
+        <p>
+          Ghost Admin API 키 하나만 넣으면 5분짜리 JWT 토큰을 만들어 드립니다.
+        </p>
       </section>
-
+      <Image
+        src="/1762953131221-why-08.webp"
+        alt="test image"
+        width={800}
+        height={400}
+      />
       <form
         onSubmit={handleSubmit}
         style={{
           display: 'flex',
           flexDirection: 'column',
           gap: '1rem',
-        }}
-      >
-        <label style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+        }}>
+        <label
+          style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           <span>Admin API Key</span>
           <input
             type="password"
@@ -97,17 +104,12 @@ export default function HomePage() {
             fontSize: '1rem',
             fontWeight: 600,
             cursor: isSubmitting ? 'not-allowed' : 'pointer',
-          }}
-        >
+          }}>
           {isSubmitting ? '생성 중...' : '토큰 생성'}
         </button>
       </form>
 
-      {error && (
-        <p style={{ color: 'crimson' }}>
-          {error}
-        </p>
-      )}
+      {error && <p style={{ color: 'crimson' }}>{error}</p>}
 
       {token && (
         <section
@@ -115,8 +117,7 @@ export default function HomePage() {
             display: 'flex',
             flexDirection: 'column',
             gap: '0.5rem',
-          }}
-        >
+          }}>
           <h2>생성된 토큰</h2>
           <textarea
             readOnly
@@ -134,8 +135,7 @@ export default function HomePage() {
           display: 'flex',
           flexDirection: 'column',
           gap: '0.75rem',
-        }}
-      >
+        }}>
         <h2 style={{ margin: 0 }}>쇼케이스 빠른 이동</h2>
         <p style={{ margin: 0, color: '#555' }}>
           아래 버튼을 눌러 각 산업별 쇼케이스 페이지로 이동할 수 있습니다.
@@ -145,8 +145,7 @@ export default function HomePage() {
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
             gap: '0.75rem',
-          }}
-        >
+          }}>
           {FEATURED_SHOWCASE_ROUTES.map((route) => (
             <Link
               key={route.href}
@@ -162,8 +161,7 @@ export default function HomePage() {
                 fontWeight: 600,
                 color: '#111',
                 background: '#fafafa',
-              }}
-            >
+              }}>
               {route.label}
             </Link>
           ))}
