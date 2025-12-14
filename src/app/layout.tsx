@@ -39,7 +39,7 @@ export default function RootLayout({
             width="1"
             height="1"
             alt=""
-            style="position:absolute;left:-9999px;top:-9999px"
+            style={{ position: 'absolute', left: '-9999px', top: '-9999px' }}
           />
         </noscript>
         <link
