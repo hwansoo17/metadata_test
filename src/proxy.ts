@@ -106,6 +106,12 @@ export async function proxy(request: NextRequest) {
   } else {
     // Check if request is coming from a bot
     if (isBot) {
+      console.log(
+        'Bot detected:',
+        userAgent,
+        'Fetching from Prerender.io',
+        request.url,
+      );
       const newURL = `http://service.prerender.io/${request.url}`;
       const newHeaders = new Headers(request.headers);
       newHeaders.set('X-Prerender-Token', process.env.PRERENDER_TOKEN || '');
