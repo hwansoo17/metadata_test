@@ -214,7 +214,7 @@ const IGNORE_EXT_RE =
 // Project configuration
 const PROJECT_ID = '695b8fa38f58f2e81a6049fd';
 const SITE_DOMAIN = 'https://b-cube.store';
-const PROXY_DOMAIN = 'https://proxy.foreignerhome.shop';
+const PROXY_DOMAIN = 'https://proxy.searchos.io';
 
 // joinUrl("https://a.com", "/x") -> "https://a.com/x"
 // joinUrl("https://a.com/", "/x") -> "https://a.com/x"
