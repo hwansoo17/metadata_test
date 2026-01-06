@@ -19,7 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <script
+          defer
+          src="https://api.searchos.io/meta-loader.v1.js"
+          data-id="695b8fa38f58f2e81a6049fd"></script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <header style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
