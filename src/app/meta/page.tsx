@@ -4,6 +4,19 @@ import { FormEvent, useCallback, useEffect, useState } from 'react';
 
 import { normalizeOrigin, normalizePath } from '@/lib/meta-utils';
 import type { MetaPayload } from '@/types/meta';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '메타데이터 테스트 | meta',
+  description: '메타페이지 원본 메타데이터',
+  alternates: {
+    canonical: 'https://b-cube.store/meta',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 const DEFAULT_METADATA: MetaPayload = {
   title: 'About | B-Cube',
@@ -133,7 +146,10 @@ export default function MetaConfiguratorPage() {
     event.preventDefault();
 
     if (!origin.trim() || !path.trim()) {
-      setStatus({ type: 'error', message: 'Origin과 Path를 모두 입력해 주세요.' });
+      setStatus({
+        type: 'error',
+        message: 'Origin과 Path를 모두 입력해 주세요.',
+      });
       return;
     }
 
@@ -176,7 +192,9 @@ export default function MetaConfiguratorPage() {
 
       setStatus({
         type: 'success',
-        message: `${payload.origin ?? normalizedOrigin}${payload.path ?? normalizedPath} 메타데이터가 저장되었습니다.`,
+        message: `${payload.origin ?? normalizedOrigin}${
+          payload.path ?? normalizedPath
+        } 메타데이터가 저장되었습니다.`,
       });
       setFetchedMetadata(payload.metadata ?? parsedMetadata);
       setOrigin(normalizedOrigin);
@@ -185,7 +203,9 @@ export default function MetaConfiguratorPage() {
       void loadEntries();
     } catch (error) {
       const message =
-        error instanceof Error ? error.message : '알 수 없는 오류가 발생했습니다.';
+        error instanceof Error
+          ? error.message
+          : '알 수 없는 오류가 발생했습니다.';
       setStatus({ type: 'error', message });
     } finally {
       setIsSubmitting(false);
@@ -194,7 +214,10 @@ export default function MetaConfiguratorPage() {
 
   async function handleFetch() {
     if (!origin.trim() || !path.trim()) {
-      setStatus({ type: 'error', message: 'Origin과 Path를 모두 입력해 주세요.' });
+      setStatus({
+        type: 'error',
+        message: 'Origin과 Path를 모두 입력해 주세요.',
+      });
       return;
     }
 
@@ -234,7 +257,9 @@ export default function MetaConfiguratorPage() {
       });
     } catch (error) {
       const message =
-        error instanceof Error ? error.message : '알 수 없는 오류가 발생했습니다.';
+        error instanceof Error
+          ? error.message
+          : '알 수 없는 오류가 발생했습니다.';
       setStatus({ type: 'error', message });
     }
   }
@@ -248,8 +273,7 @@ export default function MetaConfiguratorPage() {
         display: 'flex',
         flexDirection: 'column',
         gap: '1.5rem',
-      }}
-    >
+      }}>
       <header>
         <h1>페이지별 메타데이터 설정</h1>
         <p style={{ color: '#555' }}>
@@ -266,16 +290,14 @@ export default function MetaConfiguratorPage() {
           display: 'flex',
           flexDirection: 'column',
           gap: '0.75rem',
-        }}
-      >
+        }}>
         <div
           style={{
             display: 'flex',
             gap: '0.75rem',
             flexWrap: 'wrap',
             alignItems: 'flex-end',
-          }}
-        >
+          }}>
           <label
             style={{
               display: 'flex',
@@ -283,14 +305,12 @@ export default function MetaConfiguratorPage() {
               gap: '0.25rem',
               flex: 1,
               minWidth: 240,
-            }}
-          >
+            }}>
             <span>저장된 메타데이터 선택</span>
             <select
               value={selectedEntryKey}
               onChange={(event) => handleSelectEntry(event.target.value)}
-              style={{ padding: '0.5rem', fontSize: '1rem' }}
-            >
+              style={{ padding: '0.5rem', fontSize: '1rem' }}>
               <option value="">선택하세요</option>
               {entries.map((entry) => {
                 const key = buildEntryKey(entry.origin, entry.path);
@@ -307,8 +327,7 @@ export default function MetaConfiguratorPage() {
           <button
             type="button"
             onClick={() => loadEntries({ notifyOnError: true })}
-            style={{ padding: '0.5rem 1rem', fontWeight: 600 }}
-          >
+            style={{ padding: '0.5rem 1rem', fontWeight: 600 }}>
             {entriesLoading ? '새로고침 중...' : '목록 새로고침'}
           </button>
         </div>
@@ -317,16 +336,16 @@ export default function MetaConfiguratorPage() {
           {entriesLoading
             ? '목록을 불러오는 중입니다...'
             : entries.length > 0
-              ? `총 ${entries.length}개의 경로가 저장되어 있습니다.`
-              : '아직 저장된 메타데이터가 없습니다.'}
+            ? `총 ${entries.length}개의 경로가 저장되어 있습니다.`
+            : '아직 저장된 메타데이터가 없습니다.'}
         </p>
       </section>
 
       <form
         onSubmit={handleSubmit}
-        style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}
-      >
-        <label style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+        style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        <label
+          style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           <span>Origin</span>
           <input
             type="url"
@@ -338,7 +357,8 @@ export default function MetaConfiguratorPage() {
           />
         </label>
 
-        <label style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+        <label
+          style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           <span>Path</span>
           <input
             type="text"
@@ -350,13 +370,18 @@ export default function MetaConfiguratorPage() {
           />
         </label>
 
-        <label style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+        <label
+          style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           <span>Metadata JSON</span>
           <textarea
             value={metadataJson}
             onChange={(event) => setMetadataJson(event.target.value)}
             rows={18}
-            style={{ fontFamily: 'monospace', padding: '0.75rem', fontSize: '0.95rem' }}
+            style={{
+              fontFamily: 'monospace',
+              padding: '0.75rem',
+              fontSize: '0.95rem',
+            }}
           />
         </label>
 
@@ -368,8 +393,7 @@ export default function MetaConfiguratorPage() {
               padding: '0.75rem 1.25rem',
               fontWeight: 600,
               cursor: isSubmitting ? 'not-allowed' : 'pointer',
-            }}
-          >
+            }}>
             {isSubmitting ? '저장 중...' : '저장하기'}
           </button>
 
@@ -379,8 +403,7 @@ export default function MetaConfiguratorPage() {
             style={{
               padding: '0.75rem 1.25rem',
               fontWeight: 600,
-            }}
-          >
+            }}>
             불러오기
           </button>
         </div>
@@ -391,8 +414,7 @@ export default function MetaConfiguratorPage() {
           style={{
             color: status.type === 'error' ? 'crimson' : 'seagreen',
             fontWeight: 600,
-          }}
-        >
+          }}>
           {status.message}
         </p>
       )}
@@ -403,8 +425,7 @@ export default function MetaConfiguratorPage() {
             border: '1px solid #ddd',
             borderRadius: 8,
             padding: '1rem',
-          }}
-        >
+          }}>
           <h2 style={{ marginTop: 0 }}>미리보기</h2>
           <pre
             style={{
@@ -412,8 +433,7 @@ export default function MetaConfiguratorPage() {
               background: '#fafafa',
               padding: '1rem',
               overflowX: 'auto',
-            }}
-          >
+            }}>
             {JSON.stringify(fetchedMetadata, null, 2)}
           </pre>
         </section>
