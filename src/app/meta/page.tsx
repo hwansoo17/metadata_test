@@ -4,19 +4,6 @@ import { FormEvent, useCallback, useEffect, useState } from 'react';
 
 import { normalizeOrigin, normalizePath } from '@/lib/meta-utils';
 import type { MetaPayload } from '@/types/meta';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: '메타데이터 테스트 | meta',
-  description: '메타페이지 원본 메타데이터',
-  alternates: {
-    canonical: 'https://b-cube.store/meta',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
 
 const DEFAULT_METADATA: MetaPayload = {
   title: 'About | B-Cube',
