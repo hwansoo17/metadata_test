@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://b-cube.store
-
-# Sitemaps
-Sitemap: https://b-cube.store/sitemap.xml
