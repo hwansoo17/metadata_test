@@ -22,8 +22,8 @@ export default function RootLayout({
       <head>
         <script
           defer
-          src="https://api.searchos.kr/meta-loader.v1.js"
-          data-id="696738ce8bd9800db2fa9064"></script>
+          src="https://api.searchos.io/meta-loader.v1.js"
+          data-id="695b8fa38f58f2e81a6049fd"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
