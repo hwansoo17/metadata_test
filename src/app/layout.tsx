@@ -39,6 +39,7 @@ export default function RootLayout({
             <Link href="/about">About</Link>
             <Link href="/showcase">Showcase</Link>
             <Link href="/meta">Meta</Link>
+            <Link href="/node-test">Node Test</Link>
           </nav>
         </header>
         {children}
